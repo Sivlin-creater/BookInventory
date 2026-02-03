@@ -3,8 +3,7 @@
 A **Java Swing-based Book Inventory Management System** built in **NetBeans IDE** with **MySQL (port 3304)**.
 This project allows you to **add, update, delete, and view books** in a database with a simple GUI interface.
 
-![Book Inventory Banner](Screenshot 2026-0)
-Screenshot 2026-02-03 221854.png
+![Book Inventory Banner](Screenshot 2026-02-03 221854.png)
 ---
 
 ## 🎯 Features
@@ -13,7 +12,6 @@ Screenshot 2026-02-03 221854.png
 * Update existing book details
 * Delete books from the inventory
 * View all books in a table
-* Search books by **Title**, **Author**, or **ID**
 * Simple and intuitive **GUI**
 
 ---
@@ -24,7 +22,7 @@ Screenshot 2026-02-03 221854.png
 * **Swing** for GUI
 * **MySQL** (Port 3304)
 * **JDBC** for database connectivity
-* **Maven/Gradle** (optional for dependencies)
+* **Maven/Gradle** (for dependencies)
 
 ---
 
@@ -56,40 +54,20 @@ CREATE TABLE tablebooks (
 ```java
 String url = "jdbc:mysql://localhost:3304/testdb";
 String user = "root";
-String password = "yourpassword";
+String password = "";
 
 Connection conn = DriverManager.getConnection(url, user, password);
 ```
 
 ---
 
-## 🗂️ Project Structure
-
-```
-BookInventory/
-│
-├─ src/
-│   ├─ db/DBConnection.java        # Database connection
-│   ├─ ui/MainForm.java            # GUI form
-│   ├─ model/Book.java             # Book model
-│   ├─ dao/BookDAO.java            # CRUD operations
-│   └─ utils/Utils.java            # Helper methods
-│
-├─ lib/                           # External libraries
-├─ images/                        # Screenshots & banners
-├─ videos/                        # Demo videos
-├─ README.md
-└─ BookInventory.nbproj            # NetBeans project file
-```
-
----
 
 ## 🚀 How to Run
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/BookInventory.git
+git clone https://github.com/Sivlin-creater/BookInventory.git
 ```
 
 2. Open in **NetBeans IDE**
@@ -102,13 +80,7 @@ git clone https://github.com/your-username/BookInventory.git
 ## 📷 Screenshots
 
 **Main Dashboard**
-![Dashboard](images/dashboard.png)
-
-**Add Book Form**
-![Add Book](images/add_book.png)
-
-**Book Table View**
-![Book Table](images/table_view.png)
+![Dashboard](images/.png)
 
 ---
 
