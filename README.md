@@ -1,9 +1,10 @@
-# 📚 Book Inventory Management Form
+# 📚 Book Inventory CRUD Form
 
-A **Java Swing-based Book Inventory Management System** built in **NetBeans IDE** with **MySQL (port 3304)**.
+A **Java Swing-based Book Inventory CRUD** built in **NetBeans IDE** with **MySQL (port 3304)**.
 This project allows you to **add, update, delete, and view books** in a database with a simple GUI interface.
 
-![Book Inventory Banner](Screenshot 2026-02-03 221854.png)
+![Book Inventory Banner](images/crud_form.png)
+
 ---
 
 ## 🎯 Features
@@ -22,7 +23,7 @@ This project allows you to **add, update, delete, and view books** in a database
 * **Swing** for GUI
 * **MySQL** (Port 3304)
 * **JDBC** for database connectivity
-* **Maven/Gradle** (for dependencies)
+* **Maven/Gradle** (optional for dependencies)
 
 ---
 
@@ -61,7 +62,6 @@ Connection conn = DriverManager.getConnection(url, user, password);
 
 ---
 
-
 ## 🚀 How to Run
 
 1. Clone the repository:
@@ -77,42 +77,17 @@ git clone https://github.com/Sivlin-creater/BookInventory.git
 
 ---
 
-## 📷 Screenshots
-
-**Main Dashboard**
-![Dashboard](images/.png)
-
----
-
 ## 🎬 Demo Video
 
-[![Book Inventory Demo](images/video_thumbnail.png)](videos/demo.mp4)
+[![Book Inventory Demo]](images/crud_video.mp4)
 
 > Click on the image to watch the demo video.
 
 ---
 
-## 📝 Future Improvements
-
-* Add **user authentication** (Admin/User)
-* Export to **Excel/PDF**
-* Add **advanced search and filters**
-* Improve UI with **JavaFX**
-
----
-
 ## 👤 Author
 
-* **Name:** Your Name
-* **Email:** [your.email@example.com](mailto:your.email@example.com)
-* **GitHub:** [your-github](https://github.com/your-github)
+* **Name:** CHHAY Sivlin
+* **Email:** [sivlinchhay01@gmail.com](mailto:sivlinchhay01@gmail.com)
+* **GitHub:** [Sivlin-creater](https://github.com/Sivlin-creater)
 
----
-
-✅ This README is **ready for GitHub**. Just replace the images in `images/` folder and the video in `videos/` folder.
-
----
-
-If you want, I can **also create ready-to-use images and a demo video guide** for your project so you can just drop them into GitHub.
-
-Do you want me to do that next?
